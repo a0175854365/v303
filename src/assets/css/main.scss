@@ -1,0 +1,17 @@
+// Default variable overrides
+$primary: green;
+$danger: #ff4136;
+$body-bg: #000; 
+$body-color: #111;
+
+// Required
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+
+.box {
+    padding: 20px;
+}
+
+.bg_lightgray {
+    background-color: lightgray;
+} 
