@@ -37,37 +37,8 @@ app.use(VueAxios, axios)
 ```
 
 ### axios example
-```vue
-<template>
-  <div>
-    <button @click="getList">Get list</button>
-  </div>
-</template>
-<script>
-export default {
-  created() {
-    console.log('created');
-  },
-  methods: {
-    getList() {
-      let api = 'http://www.naver.com'
-      console.log(api);
-      try {
-        this.axios.get(api).then((response) => {
-          console.log(response.data)
-        })
-        // or
-        this.$http.get(api).then((response) => {
-          console.log(response.data)
-        })
-      } catch (err) {
-        console.log('catch');
-      }
-    }
-  }
-};
-</script>
-```
+* refer to 
+```v303/src/components/MyAxios.vue```
 
 ## sass, scss primary color 변경
 
@@ -84,7 +55,6 @@ $body-color: #111;
 
 ```
 
-——
 ## vue-axios 설치 
 ```npm install vue-axios```
 
