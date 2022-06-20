@@ -1,17 +1,23 @@
 <template>
   <LoginVue />
+  <BarChart />
+  <MyAxiosVue />
   <HelloWorld msg="Welcome to Your Vue.js App" />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import LoginVue from './components/Login.vue'
+import BarChart from './components/BarChart.vue'
+import MyAxiosVue from './components/MyAxios.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    LoginVue
+    LoginVue, 
+    BarChart,
+    MyAxiosVue
   }
 }
 </script>

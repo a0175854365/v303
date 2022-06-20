@@ -2,7 +2,7 @@
     <div class="container box bg_lightgray mb-3">
         <h1>Login vue component</h1>
         <h2>
-            Bootstrap 적용, Custom CSS 적용
+            Bootstrap 적용, SCSS 적용
         </h2>
         <div class="row mb-3">
             <div class="col-6">
