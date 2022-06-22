@@ -10,7 +10,7 @@ export default {
   },
   methods: {
     getList() {
-      let api = 'http://www.naver.com'
+      let api = 'https://qa-api.doctorvice.co.kr/server/time'
       console.log(api);
       try {
         this.axios.get(api).then((response) => {
